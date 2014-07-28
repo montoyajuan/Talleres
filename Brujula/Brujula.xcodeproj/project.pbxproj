@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07DF3464197B174A00FE57EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DF3463197B174A00FE57EF /* Foundation.framework */; };
+		07DF3466197B174A00FE57EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DF3465197B174A00FE57EF /* CoreGraphics.framework */; };
+		07DF3468197B174A00FE57EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DF3467197B174A00FE57EF /* UIKit.framework */; };
+		07DF346E197B174A00FE57EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07DF346C197B174A00FE57EF /* InfoPlist.strings */; };
+		07DF3470197B174A00FE57EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DF346F197B174A00FE57EF /* main.m */; };
+		07DF3474197B174A00FE57EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DF3473197B174A00FE57EF /* AppDelegate.m */; };
+		07DF3477197B174A00FE57EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07DF3475197B174A00FE57EF /* Main.storyboard */; };
+		07DF347A197B174A00FE57EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DF3479197B174A00FE57EF /* ViewController.m */; };
+		07DF347C197B174A00FE57EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07DF347B197B174A00FE57EF /* Images.xcassets */; };
+		07DF3483197B174B00FE57EF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DF3482197B174B00FE57EF /* XCTest.framework */; };
+		07DF3484197B174B00FE57EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DF3463197B174A00FE57EF /* Foundation.framework */; };
+		07DF3485197B174B00FE57EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DF3467197B174A00FE57EF /* UIKit.framework */; };
+		07DF348D197B174B00FE57EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07DF348B197B174B00FE57EF /* InfoPlist.strings */; };
+		07DF348F197B174B00FE57EF /* BrujulaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DF348E197B174B00FE57EF /* BrujulaTests.m */; };
+		07DF3499197B17B100FE57EF /* brujula.png in Resources */ = {isa = PBXBuildFile; fileRef = 07DF3498197B17B100FE57EF /* brujula.png */; };
+		07DF349B197B17F600FE57EF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DF349A197B17F600FE57EF /* CoreLocation.framework */; };
+		07DF349D197B180100FE57EF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DF349C197B180100FE57EF /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07DF3486197B174B00FE57EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07DF3458197B174A00FE57EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07DF345F197B174A00FE57EF;
+			remoteInfo = Brujula;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07DF3460197B174A00FE57EF /* Brujula.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brujula.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07DF3463197B174A00FE57EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07DF3465197B174A00FE57EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07DF3467197B174A00FE57EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07DF346B197B174A00FE57EF /* Brujula-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Brujula-Info.plist"; sourceTree = "<group>"; };
+		07DF346D197B174A00FE57EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07DF346F197B174A00FE57EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07DF3471197B174A00FE57EF /* Brujula-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Brujula-Prefix.pch"; sourceTree = "<group>"; };
+		07DF3472197B174A00FE57EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07DF3473197B174A00FE57EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07DF3476197B174A00FE57EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07DF3478197B174A00FE57EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07DF3479197B174A00FE57EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07DF347B197B174A00FE57EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		07DF3481197B174B00FE57EF /* BrujulaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrujulaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07DF3482197B174B00FE57EF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		07DF348A197B174B00FE57EF /* BrujulaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrujulaTests-Info.plist"; sourceTree = "<group>"; };
+		07DF348C197B174B00FE57EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07DF348E197B174B00FE57EF /* BrujulaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrujulaTests.m; sourceTree = "<group>"; };
+		07DF3498197B17B100FE57EF /* brujula.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brujula.png; sourceTree = "<group>"; };
+		07DF349A197B17F600FE57EF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		07DF349C197B180100FE57EF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07DF345D197B174A00FE57EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DF349D197B180100FE57EF /* QuartzCore.framework in Frameworks */,
+				07DF349B197B17F600FE57EF /* CoreLocation.framework in Frameworks */,
+				07DF3466197B174A00FE57EF /* CoreGraphics.framework in Frameworks */,
+				07DF3468197B174A00FE57EF /* UIKit.framework in Frameworks */,
+				07DF3464197B174A00FE57EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07DF347E197B174B00FE57EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DF3483197B174B00FE57EF /* XCTest.framework in Frameworks */,
+				07DF3485197B174B00FE57EF /* UIKit.framework in Frameworks */,
+				07DF3484197B174B00FE57EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07DF3457197B174A00FE57EF = {
+			isa = PBXGroup;
+			children = (
+				07DF3469197B174A00FE57EF /* Brujula */,
+				07DF3488197B174B00FE57EF /* BrujulaTests */,
+				07DF3462197B174A00FE57EF /* Frameworks */,
+				07DF3461197B174A00FE57EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07DF3461197B174A00FE57EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07DF3460197B174A00FE57EF /* Brujula.app */,
+				07DF3481197B174B00FE57EF /* BrujulaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07DF3462197B174A00FE57EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07DF349C197B180100FE57EF /* QuartzCore.framework */,
+				07DF349A197B17F600FE57EF /* CoreLocation.framework */,
+				07DF3463197B174A00FE57EF /* Foundation.framework */,
+				07DF3465197B174A00FE57EF /* CoreGraphics.framework */,
+				07DF3467197B174A00FE57EF /* UIKit.framework */,
+				07DF3482197B174B00FE57EF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07DF3469197B174A00FE57EF /* Brujula */ = {
+			isa = PBXGroup;
+			children = (
+				07DF3498197B17B100FE57EF /* brujula.png */,
+				07DF3472197B174A00FE57EF /* AppDelegate.h */,
+				07DF3473197B174A00FE57EF /* AppDelegate.m */,
+				07DF3475197B174A00FE57EF /* Main.storyboard */,
+				07DF3478197B174A00FE57EF /* ViewController.h */,
+				07DF3479197B174A00FE57EF /* ViewController.m */,
+				07DF347B197B174A00FE57EF /* Images.xcassets */,
+				07DF346A197B174A00FE57EF /* Supporting Files */,
+			);
+			path = Brujula;
+			sourceTree = "<group>";
+		};
+		07DF346A197B174A00FE57EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07DF346B197B174A00FE57EF /* Brujula-Info.plist */,
+				07DF346C197B174A00FE57EF /* InfoPlist.strings */,
+				07DF346F197B174A00FE57EF /* main.m */,
+				07DF3471197B174A00FE57EF /* Brujula-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07DF3488197B174B00FE57EF /* BrujulaTests */ = {
+			isa = PBXGroup;
+			children = (
+				07DF348E197B174B00FE57EF /* BrujulaTests.m */,
+				07DF3489197B174B00FE57EF /* Supporting Files */,
+			);
+			path = BrujulaTests;
+			sourceTree = "<group>";
+		};
+		07DF3489197B174B00FE57EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07DF348A197B174B00FE57EF /* BrujulaTests-Info.plist */,
+				07DF348B197B174B00FE57EF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07DF345F197B174A00FE57EF /* Brujula */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07DF3492197B174B00FE57EF /* Build configuration list for PBXNativeTarget "Brujula" */;
+			buildPhases = (
+				07DF345C197B174A00FE57EF /* Sources */,
+				07DF345D197B174A00FE57EF /* Frameworks */,
+				07DF345E197B174A00FE57EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brujula;
+			productName = Brujula;
+			productReference = 07DF3460197B174A00FE57EF /* Brujula.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07DF3480197B174B00FE57EF /* BrujulaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07DF3495197B174B00FE57EF /* Build configuration list for PBXNativeTarget "BrujulaTests" */;
+			buildPhases = (
+				07DF347D197B174B00FE57EF /* Sources */,
+				07DF347E197B174B00FE57EF /* Frameworks */,
+				07DF347F197B174B00FE57EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07DF3487197B174B00FE57EF /* PBXTargetDependency */,
+			);
+			name = BrujulaTests;
+			productName = BrujulaTests;
+			productReference = 07DF3481197B174B00FE57EF /* BrujulaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07DF3458197B174A00FE57EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = mobilemontoya;
+				TargetAttributes = {
+					07DF3480197B174B00FE57EF = {
+						TestTargetID = 07DF345F197B174A00FE57EF;
+					};
+				};
+			};
+			buildConfigurationList = 07DF345B197B174A00FE57EF /* Build configuration list for PBXProject "Brujula" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07DF3457197B174A00FE57EF;
+			productRefGroup = 07DF3461197B174A00FE57EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07DF345F197B174A00FE57EF /* Brujula */,
+				07DF3480197B174B00FE57EF /* BrujulaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07DF345E197B174A00FE57EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DF347C197B174A00FE57EF /* Images.xcassets in Resources */,
+				07DF346E197B174A00FE57EF /* InfoPlist.strings in Resources */,
+				07DF3477197B174A00FE57EF /* Main.storyboard in Resources */,
+				07DF3499197B17B100FE57EF /* brujula.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07DF347F197B174B00FE57EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DF348D197B174B00FE57EF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07DF345C197B174A00FE57EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DF347A197B174A00FE57EF /* ViewController.m in Sources */,
+				07DF3474197B174A00FE57EF /* AppDelegate.m in Sources */,
+				07DF3470197B174A00FE57EF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07DF347D197B174B00FE57EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DF348F197B174B00FE57EF /* BrujulaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07DF3487197B174B00FE57EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07DF345F197B174A00FE57EF /* Brujula */;
+			targetProxy = 07DF3486197B174B00FE57EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07DF346C197B174A00FE57EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07DF346D197B174A00FE57EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07DF3475197B174A00FE57EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07DF3476197B174A00FE57EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07DF348B197B174B00FE57EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07DF348C197B174B00FE57EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07DF3490197B174B00FE57EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07DF3491197B174B00FE57EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07DF3493197B174B00FE57EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Brujula/Brujula-Prefix.pch";
+				INFOPLIST_FILE = "Brujula/Brujula-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07DF3494197B174B00FE57EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Brujula/Brujula-Prefix.pch";
+				INFOPLIST_FILE = "Brujula/Brujula-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		07DF3496197B174B00FE57EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Brujula.app/Brujula";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Brujula/Brujula-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BrujulaTests/BrujulaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		07DF3497197B174B00FE57EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Brujula.app/Brujula";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Brujula/Brujula-Prefix.pch";
+				INFOPLIST_FILE = "BrujulaTests/BrujulaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07DF345B197B174A00FE57EF /* Build configuration list for PBXProject "Brujula" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07DF3490197B174B00FE57EF /* Debug */,
+				07DF3491197B174B00FE57EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07DF3492197B174B00FE57EF /* Build configuration list for PBXNativeTarget "Brujula" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07DF3493197B174B00FE57EF /* Debug */,
+				07DF3494197B174B00FE57EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07DF3495197B174B00FE57EF /* Build configuration list for PBXNativeTarget "BrujulaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07DF3496197B174B00FE57EF /* Debug */,
+				07DF3497197B174B00FE57EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07DF3458197B174A00FE57EF /* Project object */;
+}

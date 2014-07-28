@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Colombia</string>
+	<string>Venezuela</string>
+	<string>Argentina</string>
+	<string>Brasil</string>
+	<string>Chile</string>
+	<string>Bolivia</string>
+	<string>Peru</string>
+	<string>Ecuador</string>
+	<string>Paraguay</string>
+	<string>Uruguay</string>
+</array>
+</plist>
